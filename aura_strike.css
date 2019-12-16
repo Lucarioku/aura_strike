@@ -1,0 +1,175 @@
+/* CSS for Aura Strike */
+
+body{
+	background-color:;
+	background-image:url(images/blue_flame_2.jpg);
+}
+nav{
+	font-weight:bold;
+	background-color:black;
+}
+nav a{
+	text-decoration:none;
+}
+nav a:link{
+	color:#266AAB;
+}
+nav a:visited{
+	color:#990808;
+}
+nav a:hover{
+	color:#03ACE7;
+}
+nav a:active{
+	color:#DAF7A6;
+}
+h1{
+	background-color:black;
+	color:#002997;
+	background-image:url(images/as_logo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:contain;
+}
+h2{
+	background-color:black;
+	color:#266AAB;
+	font-weight:bold;
+}
+#wrapper{
+	width:80%;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	background-color:black;
+ 	min-width:700px;
+ 	max-width:1024px;
+}
+footer{
+	color:#03ACE7;
+}
+footer a{
+	text-decoration:none;
+}
+footer a:link{
+	color:#266AAB;
+}
+footer a:visited{
+	color:#990808;
+}
+footer a:hover{
+	color:#03ACE7;
+}
+footer a:active{
+	color:#DAF7A6;
+}
+.intro{
+	color:#266AAB;
+}
+*{
+	font-family:fantasy;
+}
+h3{
+	color:#266AAB;
+}
+main{
+	color:#266AAB;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:20px;
+	margin-left:170px;
+}
+#strike{
+	
+}
+#overview{
+
+}
+#faq{
+	background-image:url(images/questions.jpg);
+	height:300px;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	margin-left:170px;
+
+}
+@media only screen and (max-width: 1024px){
+	body{
+		margin:0;
+		padding:0;
+		background-image:none;
+	}
+	#wrapper{
+		width:auto;
+		min-width:0;
+		box-shadow:none;
+
+	}
+	h1{
+		margin:0;
+	}
+	nav{
+		float:none;
+		width:auto;
+		padding:0.5em;
+	}
+	nav li{
+		display:inline-block;
+	}
+	nav a{
+		padding:1em;
+	}
+	main{
+		margin-left:0;
+		padding:1em;
+		font-size:90%;
+	}
+	footer{
+		margin:0;
+	}
+	#stike,
+	#overview,
+	#faq{
+		margin-left:0;
+	}
+@media only screen and (max-width: 768px) {
+	#strike,
+	#overview,
+	#faq{
+		display:none;
+	}
+	nav li{
+		display:block;
+		margin:0;
+		padding:0;
+	}
+	nav a{
+		display:block;
+		border-bottom:1px #330000 solid;
+		padding:0.2em;
+		font-size:1.3em;
+	}
+	nav{
+		padding:0;
+	}
+	nav ul{
+		margin:0;
+		padding:0;
+	}
+	h1{
+		font-size:1.5em;
+		padding-left:0.3em;
+		height:100%;
+	}
+	main{
+		padding:0.1em 0.6em 0.1em 0.4em;
+	}
+	footer{
+		padding:0;
+	}
+	#desktop{
+		display:none;
+	}
+	#mobile{
+		display:inline;
+	}
